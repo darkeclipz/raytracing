@@ -7,7 +7,7 @@ This repository contains various raytracing algorithms.
 
 # Examples
 
-![example1](img/20190127_235428_1920x1080_8XSS.png)
+![example1](img/20190128_094440_3840x2160_16XSS.png)
 
 # References
 

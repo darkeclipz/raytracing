@@ -19,10 +19,10 @@ namespace Raytracer.Simple
             bool useSS = false;
             int samples = 1;
 #if SS4
-            screenWidth = 1920;
-            screenHeight = 1080;
+            screenWidth = 1920*2;
+            screenHeight = 1080*2;
             useSS = true;
-            samples = 8;
+            samples = 16;
 #endif
             var scene = new SphereTowerScene(screenWidth, screenHeight);
             var renderer = new Renderer(scene);
