@@ -9,6 +9,12 @@ This repository contains various ray tracing algorithms.
 
 ![example1](img/20190128_094440_3840x2160_16XSS.png)
 
+Example rendered with 16X supersampling and hard shadows.
+
+![example2](img/20190128_185101_3840x2160_4XSS.png)
+
+Example rendered with 4X supersampling and 64 shadow rays to approx. a soft shadow.
+
 # References
 
  1. [Physically Based Rendering, 2nd ed., Matt Phar, Greg Humphreys.](https://www.amazon.com/Physically-Based-Rendering-Theory-Implementation/dp/0123750792/ref=sr_1_3?ie=UTF8&qid=1548670312&sr=8-3&keywords=physically+based+rendering)
