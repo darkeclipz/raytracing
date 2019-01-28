@@ -28,8 +28,8 @@ namespace Raytracer.Simple.Cameras
         public Ray GetRay(int x, int y, bool noOffset = false)
         {
             var rng = new Random();
-            float offsetX = (float)rng.NextDouble();
-            float offsetY = (float)rng.NextDouble();
+            float offsetX = StaticRandom.Next();
+            float offsetY = StaticRandom.Next();
             if (noOffset) { offsetX = 0; offsetY = 0; }
             var P = O + f * D + new Vector3((x + offsetX) / screenWidth, (y + offsetY) / screenHeight, 0) - new Vector3(.5f, .5f, 0f);
             P.X *= aspect;

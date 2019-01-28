@@ -28,12 +28,7 @@ namespace Raytracer.Simple.Shapes
 
         public override Intersection Intersect(Ray r)
         {
-            void Swap<T>(ref T a, ref T b)
-            {
-                T temp = a;
-                a = b;
-                b = temp;
-            }
+            
 
             // Determine if there is an intersection, and find out where.
             float A = Vector3.Dot(r.D, r.D);
@@ -85,7 +80,19 @@ namespace Raytracer.Simple.Shapes
             float C = Vector3.Dot(r.O - O, r.O - O) - R * R;
             float discr = B * B - 4f * A * C;
             if (discr < 0) return false;
+
+            float rootDiscr = (float)Math.Sqrt(discr);
+            float q;
+            if (B < 0) q = -0.5f * (B - rootDiscr);
+            else q = -0.5f * (B + rootDiscr);
+            float t0 = q / A;
+            float t1 = C / q;
+            if (t0 > t1) Swap(ref t0, ref t1);
+            if (t0 < 0) return false; // behind us, miss
+
             return true;
         }
+
+
     }
 }

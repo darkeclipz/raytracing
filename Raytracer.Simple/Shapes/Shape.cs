@@ -12,6 +12,7 @@ namespace Raytracer.Simple.Shapes
         public Vector3 O;
         public int ShapeId;
         public Material Material;
+        public IntersectionFlag Flag = IntersectionFlag.Intersectable;
 
         public Shape(Vector3 o, Material m)
         {
@@ -21,5 +22,18 @@ namespace Raytracer.Simple.Shapes
 
         public abstract Intersection Intersect(Ray r);
         public abstract bool IntersectP(Ray r);
+
+        protected void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        }
+    }
+
+    public enum IntersectionFlag
+    {
+        Intersectable,
+        NotIntersectable
     }
 }

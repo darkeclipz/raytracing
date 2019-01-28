@@ -24,7 +24,7 @@ namespace Raytracer.Simple.Scenes
 
         public void AddLights()
         {
-            Lights.Add(new Light(new Vector3(0, -10, -2)));
+            Lights.Add(new PointLight(new Vector3(0, -8, -2), 5f, new Vector3(255), new Vector3(255), 4f));
         }
 
         public void AddWorld()
@@ -32,9 +32,9 @@ namespace Raytracer.Simple.Scenes
             var bigSphereMaterial = new Material
             {
                 Color = new Vector3(150),
-                //Texture = new GridPattern(600, .15f, (float)Math.PI / 4),
                 Texture = new CheckerPattern(300),
-                TextureAlpha = .8f
+                TextureAlpha = .8f,
+                Shade = false
             };
 
             var bigSphere = new Sphere(new Vector3(0, 100.5f, 0), bigSphereMaterial, 100)
@@ -60,7 +60,7 @@ namespace Raytracer.Simple.Scenes
                 TextureAlpha = 0.8f
             };
 
-            float offsetY = -1f;
+            float offsetY = -1.1f;
             for(int i=0; i < 5; i++)
             {
                 var sphere = new Sphere(new Vector3(0, 0, 2), mirrorMaterial, (6-(float)i)/6);
@@ -78,12 +78,6 @@ namespace Raytracer.Simple.Scenes
             float h2 = 100f - Vector3.Distance(new Vector3(-4, -2, 8), Shapes[0].O);
             Shapes.Add(new Sphere(new Vector3(-3, -1.1f, 8), mirrorMaterial, 2));
             Shapes.Add(new Sphere(new Vector3(3, -1.1f, 8), mirrorMaterial, 2));
-
-            //float h3 = 100f - Vector3.Distance(new Vector3(-4, -2, 13), Shapes[0].O);
-            //Shapes.Add(new Sphere(new Vector3(-2, -0.6f, 13), mirrorMaterial, 2));
-            //Shapes.Add(new Sphere(new Vector3(2, -0.6f, 13), mirrorMaterial, 2));
-
-           // Shapes.Add(new Sphere(new Vector3(0, -3, -6), mirrorMaterial, 6));
         }
     }
 }

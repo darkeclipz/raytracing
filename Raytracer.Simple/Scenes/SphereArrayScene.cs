@@ -24,7 +24,7 @@ namespace Raytracer.Simple.Scenes
 
         public void AddLights()
         {
-            Lights.Add(new Light(new Vector3(0, -7, -5)));
+            Lights.Add(new PointLight(new Vector3(0, -10, -2), 5f, new Vector3(255), new Vector3(255), 4f));
         }
 
         public void AddWorld()

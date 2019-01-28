@@ -14,6 +14,7 @@ namespace Raytracer.Simple.Materials
         public float RefractionIndex;
         public Texture Texture;
         public float TextureAlpha;
+        public bool Shade = true;
 
         public Material() { }
         public Material(Vector3 color, float reflectivity = 0f, float transmissiveness = 0f, float refractionIndex = 1f, Texture texture = null, float textureAlpha = 0)

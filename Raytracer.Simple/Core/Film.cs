@@ -14,5 +14,14 @@ namespace Raytracer.Simple.Core
             Name = name;
             B = new Bitmap(width, height);
         }
+
+        private object @lock = false;
+        public void SetPixelSafe(int x, int y, Color color)
+        {
+            lock(@lock)
+            {
+                B.SetPixel(x, y, color);
+            }
+        }
     }
 }
