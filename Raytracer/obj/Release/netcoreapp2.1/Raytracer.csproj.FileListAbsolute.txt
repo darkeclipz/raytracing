@@ -1,0 +1,4 @@
+D:\Repos\Raytracer\Raytracer\obj\Release\netcoreapp2.1\Raytracer.csprojAssemblyReference.cache
+D:\Repos\Raytracer\Raytracer\obj\Release\netcoreapp2.1\Raytracer.csproj.CoreCompileInputs.cache
+D:\Repos\Raytracer\Raytracer\obj\Release\netcoreapp2.1\Raytracer.AssemblyInfoInputs.cache
+D:\Repos\Raytracer\Raytracer\obj\Release\netcoreapp2.1\Raytracer.AssemblyInfo.cs

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raytracer", "Raytracer\Raytracer.csproj", "{8800370C-4509-4791-BDA9-7C04D2207099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raytracer.Tests", "Raytracer.Tests\Raytracer.Tests.csproj", "{6263DCB4-A010-406D-9CB7-CAF509AEF663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raytracer.Simple", "Raytracer.Simple\Raytracer.Simple.csproj", "{E8FEE312-28CA-4090-BB41-9EEB141ED206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		4x SS|Any CPU = 4x SS|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Fast|Any CPU = Fast|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8800370C-4509-4791-BDA9-7C04D2207099}.4x SS|Any CPU.ActiveCfg = Release|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.4x SS|Any CPU.Build.0 = Release|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Fast|Any CPU.ActiveCfg = Release|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Fast|Any CPU.Build.0 = Release|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8800370C-4509-4791-BDA9-7C04D2207099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.4x SS|Any CPU.ActiveCfg = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.4x SS|Any CPU.Build.0 = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Fast|Any CPU.ActiveCfg = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Fast|Any CPU.Build.0 = Debug|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6263DCB4-A010-406D-9CB7-CAF509AEF663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.4x SS|Any CPU.ActiveCfg = 4x SS|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.4x SS|Any CPU.Build.0 = 4x SS|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Fast|Any CPU.ActiveCfg = Fast|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Fast|Any CPU.Build.0 = Fast|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FEE312-28CA-4090-BB41-9EEB141ED206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB3944A8-DE5E-4727-8E79-53E678E4C6B7}
+	EndGlobalSection
+EndGlobal

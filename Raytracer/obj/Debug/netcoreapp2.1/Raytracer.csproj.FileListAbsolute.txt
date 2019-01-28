@@ -1,0 +1,11 @@
+D:\Repos\Raytracer\Raytracer\bin\Debug\netcoreapp2.1\Raytracer.deps.json
+D:\Repos\Raytracer\Raytracer\bin\Debug\netcoreapp2.1\Raytracer.runtimeconfig.json
+D:\Repos\Raytracer\Raytracer\bin\Debug\netcoreapp2.1\Raytracer.runtimeconfig.dev.json
+D:\Repos\Raytracer\Raytracer\bin\Debug\netcoreapp2.1\Raytracer.dll
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.csprojAssemblyReference.cache
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.csproj.CoreCompileInputs.cache
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.AssemblyInfoInputs.cache
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.AssemblyInfo.cs
+D:\Repos\Raytracer\Raytracer\bin\Debug\netcoreapp2.1\Raytracer.pdb
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.dll
+D:\Repos\Raytracer\Raytracer\obj\Debug\netcoreapp2.1\Raytracer.pdb

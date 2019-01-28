@@ -1,0 +1,17 @@
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.Tests.deps.json
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.Tests.runtimeconfig.json
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.Tests.runtimeconfig.dev.json
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.Tests.dll
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.Tests.pdb
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.dll
+D:\Repos\Raytracer\Raytracer.Tests\bin\Debug\netcoreapp2.1\Raytracer.pdb
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.csprojAssemblyReference.cache
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.csproj.CoreCompileInputs.cache
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.AssemblyInfoInputs.cache
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.AssemblyInfo.cs
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.csproj.CopyComplete
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.dll
+D:\Repos\Raytracer\Raytracer.Tests\obj\Debug\netcoreapp2.1\Raytracer.Tests.pdb
