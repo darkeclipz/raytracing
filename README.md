@@ -13,7 +13,7 @@ Example rendered with 16X supersampling and hard shadows. (4K)
 
 ![example2](img/20190128_185101_3840x2160_4XSS.png)
 
-Example rendered with 4X supersampling and 64 shadow rays to approx. a soft shadow. (4K)
+Example rendered with 4X supersampling, Blinn-Phong specular lightning, and 64 shadow rays to approx. a soft shadow. (4K)
 
 # References
 
