@@ -20,3 +20,4 @@ Example rendered with 4X supersampling, Blinn-Phong specular lightning, and 64 s
  1. [Physically Based Rendering, 2nd ed., Matt Phar, Greg Humphreys.](https://www.amazon.com/Physically-Based-Rendering-Theory-Implementation/dp/0123750792/ref=sr_1_3?ie=UTF8&qid=1548670312&sr=8-3&keywords=physically+based+rendering)
  2. [Reflections and Refractions in Ray Tracing, Bram de Greve, 2006.](https://graphics.stanford.edu/courses/cs148-10-summer/docs/2006--degreve--reflection_refraction.pdf)
  3. [Scratchapixel - Introduction to Shading: Reflection, Refraction, and Fresnel](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel)
+ 4. [C++ Example - Refraction](https://github.com/TomCrypto/Lambda/blob/master/src/materials/smoothglass.cpp)

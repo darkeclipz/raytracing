@@ -66,7 +66,7 @@ namespace Raytracer.Simple.Renderers
                     var tRay = new Ray(cs.O + bias, rDir);
 
                     var tColor = Trace(tRay, scene, ++depth);
-                    if (tColor != Vector3.Zero && float.TryParse(tColor.X.ToString(), out float _))
+                    if (tColor != Vector3.Zero)
                         color = Vector3.Lerp(color, tColor, cs.Shape.Material.Transmissiveness);
                     
                     else {

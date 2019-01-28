@@ -56,11 +56,11 @@ namespace Raytracer.Simple.Scenes
             };
             var glassMaterial = new Material
             {
-                Color = new Vector3(100),
+                Color = new Vector3(255, 0, 0),
                 //Texture = new CheckerPattern(10),
                 //TextureAlpha = 0.5f
                 Transmissiveness = 1f,
-                RefractionIndex = 1.5f
+                RefractionIndex = 1.01f
             };
 
             float offsetY = -1.2f;
